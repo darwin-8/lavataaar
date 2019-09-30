@@ -22,9 +22,8 @@ class LavataaarServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('Lavataaar', function () {
-            return new Avataaar(env('AVATAAAR_HOST', 'https://avataaars.io'));
-        }
-        );
+            return new Avataaar(['host' => env('AVATAAAR_HOST', 'https://avataaars.io')]);
+        });
     }
 
     /**
