@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Lavataaar;
+namespace Darwin8\Lavataaar;
 
 
 use Avataaar\Avataaar;

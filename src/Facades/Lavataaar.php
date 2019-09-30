@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Lavataaar\Facades;
+namespace Darwin8\Lavataaar\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
